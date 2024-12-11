@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(49, 9, 73);
+}
+#abc{
+    width: 100%;
+    margin: 10px;
+    margin-right: 10px;
+}
+#one{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card{
+    width: 18rem;
+    padding-top: 10px;
+}
+img{
+    width: 16rem;
+    height: inherit;
+}
+#python{
+    padding-left: 25px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+p{
+    text-align: justify;
+    font-style: italic;
+}
+#heading{
+    font-size: 30px;
+    color: rgb(238, 137, 104);
+}
+a{
+    text-decoration: none;
+}
