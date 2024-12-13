@@ -26,4 +26,8 @@ urlpatterns = [
     path('mern/',mern,name='mern'),
     path('devops/',devops,name='devops'),
     path('trainers/',trainers,name='trainers'),
+    path('pdetails/',pdetails,name='pdetails'),
+    path('jdetails/',jdetails,name='jdetails'),
+    path('mdetails/',mdetails,name='mdetails'),
+    path('ddetails/',ddetails,name='ddetails'),
 ]

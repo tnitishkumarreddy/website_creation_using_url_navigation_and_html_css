@@ -19,3 +19,15 @@ def devops(request):
 
 def trainers(request):
     return render(request,'trainers.html')
+
+def pdetails(request):
+    return render(request,'pdetails.html')
+
+def jdetails(request):
+    return render(request,'jdetails.html')
+
+def mdetails(request):
+    return render(request,'mdetails.html')
+
+def ddetails(request):
+    return render(request,'ddetails.html')

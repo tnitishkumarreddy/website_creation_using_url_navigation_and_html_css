@@ -11,7 +11,7 @@
 <body>
    
     <nav class="navbar navbar-light bg-light" id="abc">
-        <a class="navbar-brand" id="heading"><button class="btn btn-primary">Jspiders</button></a>
+        <a class="navbar-brand" id="heading"><button class="btn btn-danger" id="happy">Jspiders</button></a>
         <a href="{% url 'jspiders' %}"><button class="btn btn-dark">Home</button></a>
 
         <a href="{% url 'trainers' %}"><button class="btn btn-danger">Trainers details</button></a>
@@ -23,7 +23,7 @@
       </nav>
 
       <div class="border border-dark" style="margin: 10px;">
-        <p style="padding: 20px;">JSpiders is a leading software training institute,recognized as the world's largest Java/J2EE training organization.Headquartered in Bangalore,India,JSpiders aims to bridge the gap between industry demands and educational curriculums2.They offer a wide range of courses,including Java Full Stack,J2EE,MEAN/MERN Stack,and Software Testing,all designed to meet current industry standards. With training centers across India and globally,JSpiders provides job-oriented training by top industry experts,helping students build successful careers in the IT industry.</p>
+        <marquee scrollamount="15" style="padding: 20px;">Jspiders is a leading software training institute,recognized as the world's largest Java/J2EE training organization.Headquartered in Bangalore,India,JSpiders aims to bridge the gap between industry demands and educational curriculums.They offer a wide range of courses,including Java Full Stack,J2EE,MEAN/MERN Stack,and Software Testing,all designed to meet current industry standards. With training centers across India and globally,JSpiders provides job-oriented training by top industry experts,helping students build successful careers in the IT industry.</marquee>
       </div>
 
       <div id="one" class="border border-light row">
@@ -33,7 +33,7 @@
           <div class="card-body">
             <h5 class="card-title">Brief Description about the course</h5>
             <p class="card-text">Python full stack development involves building complete web applications using Python for the back-end with frameworks like Django,and HTML,CSS,and JavaScript for the front-end.It also includes database management using technologies like MySQL</p>
-            <a href="{% url 'python' %}" class="btn btn-primary">Register for Python Full-stack</a>
+            <a href="{% url 'pdetails' %}" class="btn btn-primary">Register for Python Full-stack</a>
           </div>
         </div>
         <div class="card col-3">
@@ -42,7 +42,7 @@
           <div class="card-body">
             <h5 class="card-title">Brief Description about the course</h5>
             <p class="card-text">Java full stack development involves creating comprehensive web applications using Java for the back-end,leveraging frameworks like Spring,and HTML,CSS,and JavaScript for the front-end.Database management typically involves technologies like MySQL</p>
-            <a href="{% url 'java' %}" class="btn btn-primary">Register for Java Full-stack</a>
+            <a href="{% url 'jdetails' %}" class="btn btn-primary">Register for Java Full-stack</a>
           </div>
         </div>
         <div class="card col-3">
@@ -51,7 +51,7 @@
           <div class="card-body">
             <h5 class="card-title">Brief Description about the course</h5>
             <p class="card-text">MERN stack development involves building full-fledged web applications using MongoDB for the database,Express.jsfor the server-side framework,React.jsfor the front-end framework,and Node.jsfor the runtime environment.</p>
-            <a href="{% url 'mern' %}" class="btn btn-primary">Register for Mern-stack</a>
+            <a href="{% url 'mdetails' %}" class="btn btn-primary">Register for Mern-stack</a>
           </div>
         </div>
         <div class="card col-3">
@@ -60,7 +60,7 @@
           <div class="card-body">
             <h5 class="card-title">Brief Description about the course</h5>
             <p class="card-text">DevOps focuses on improving collaboration between development and operations teams,streamlining the software development lifecycle through automation,CI/CD pipelines,and infrastructure as code.It aims to enhance efficiency and speed in software delivery using tools like Docker,Kubernetes,Jenkins,and AWS</p>
-            <a href="{% url 'devops' %}" class="btn btn-primary">Register for Devops</a>
+            <a href="{% url 'ddetails' %}" class="btn btn-primary">Register for Devops</a>
           </div>
         </div>
         

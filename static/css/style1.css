@@ -30,10 +30,10 @@ p{
     text-align: justify;
     font-style: italic;
 }
-#heading{
-    font-size: 30px;
-    color: rgb(238, 137, 104);
-}
 a{
     text-decoration: none;
+}
+marquee{
+    color: red;
+    font-size: 20px;
 }

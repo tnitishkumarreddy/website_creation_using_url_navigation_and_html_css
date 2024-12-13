@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Full Stack Course</title>
+    <link rel="stylesheet" href="jc1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body style="background-color: #f9f9f9;">
+    <header>
+        <div class="container border border-dark">
+            <h1>Java Full Stack Course</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#enroll">Enroll</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container border border-dark">
+            <h2>About the Course</h2>
+            <p>Our Java Full Stack course covers both front-end and back-end development using Java. Learn to build dynamic web applications with frameworks like Spring Boot, and master front-end technologies such as HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="curriculum">
+        <div class="container border border-dark">
+            <h2>Curriculum</h2>
+            <ul>
+                <li>Introduction to Web Development</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript Basics</li>
+                <li>Java Programming</li>
+                <li>Using Spring Boot</li>
+                <li>Database Management with MySQL</li>
+                <li>Building Full Stack Applications</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container border border-dark">
+            <h2>Course Features</h2>
+            <ul>
+                <li>Comprehensive curriculum covering both front-end and back-end development</li>
+                <li>Hands-on projects and real-world examples</li>
+                <li>Expert instructors with industry experience</li>
+                <li>Flexible learning options (online and classroom training)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="enroll">
+        <div class="container border border-dark">
+            <h2>Enroll Now</h2>
+            <p>Join our Java Full Stack course today and take the first step towards becoming a proficient full stack developer!     <a href="{% url 'java' %}" class="btn btn-primary">Enroll Now</a></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container border border-dark">
+            <h2>Contact Us</h2>
+            <p>Email: jspiders@gmail.com</p>
+            <a href="{% url 'jspiders' %}" style="text-decoration: none; font-size: 20px;">Home page</a>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Training Institute</p>
+        </div>
+    </footer>
+</body>
+</html>
