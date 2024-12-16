@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
     <title>Python Registration Page</title>
+    {% endblock %}
     <style>
         .row{
             margin: 10px;
@@ -64,6 +66,8 @@
             <label for="" class="col-3">Degree Stream</label>
             <input type="text" class="col-6">
         </div>
+
+        {% block body_block%}
         <div class="row">
             <label for="" class="col-3">Course:</label>
             <h6 class="col-7">Python Full-Stack Develpoment</h6>
@@ -72,6 +76,8 @@
             <label for="" class="col-3">Fees :</label>
             <h6 class="col-3">36,000</h6>
         </div>
+
+        {% endblock %}
         <div class="row d-flex justify-content-center align-items-center">
             <button class="btn btn-primary">Submit</button>
         </div>
